@@ -1,6 +1,6 @@
 {
-    "name": "juju/number2rmb",
-    "description": "Yii2 数值转人民币",
+    "name": "juju/runinfo",
+    "description": "Yii2 运行信息",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "juju\\number2rmb\\": "src/"
+            "juju\\runinfo\\": "src/"
         }
     },
     "require": {
