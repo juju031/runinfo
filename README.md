@@ -1,7 +1,6 @@
 ## 数值转人民币
 ```
 方法convert
-如果curl不存在，使用file_get_contents读取远程文件
 ```
 
 ##安装
