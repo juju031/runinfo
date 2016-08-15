@@ -1,25 +1,26 @@
-## 数值转人民币
-```
-方法convert
-```
+## 运行信息
 
 ##安装
 
 ```
-composer require "juju/number2rmb:1.0"
+composer require "juju/runinfo:1.0"
 
-"juju/number2rmb": "~1.0.0"
+"juju/runinfo": "~1.0.0"
+```
+
+```
+方法begin无返回
 ```
 
 ##convert控制器顶部
 ```
-use \juju\curl\Number2rmb;
+use \juju\runinfo\Runinfo;
 ```
 
-##GET控制器调用
+##end控制器调用
 ```
 $number = 99999999999;
-echo (new Number2rmb())->convert($number);
-exit();
+$rundata (new Runinfo())->end();
+print_r($rundata);
 exit();
 ```
